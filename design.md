@@ -78,7 +78,7 @@ should be charged on holidays or weekends etc.
       - rentalAgreementId: String of the uuid
   - Validation Rules:
       - If the rental agreement does not exist return an error message "Does Not Exist" with http response code 412 (Precondition Failed)
-- POST 'sign' 
+- POST /rental/sign
   - marks an existing RentalAgreement as ACTIVE
   - parameters:
       - rentalAgreementId: String of the uuid
