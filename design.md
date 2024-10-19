@@ -86,6 +86,7 @@ should be charged on holidays or weekends etc.
   - Validation Rules:
       - If the rental agreement does not exist return an error message "Does Not Exist" with http response code 412 (Precondition Failed)
 
+See the impl [RentalService.java](./src/main/java/com/toolrental/service/RentalService.java)
 
 ## Testing
 Write comprehensive unit tests and integration tests for the use cases described above. Pay particular attention to the 
