@@ -3,6 +3,7 @@ The design doc is in [this doc](./design.md)
 # Notes
 
 1. For logging the RentalAgreement to the console see ```com.toolrental.domain.entity.RentalAgreement.printToConsole```
+2. Built and testing using JDK 17 (Corretto-17.0.10.7.1)
 
 
 # Examples 
